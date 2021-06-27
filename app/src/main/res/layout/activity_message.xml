@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/message_background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="32dp"
+            android:contentDescription="@string/description_mountains_logo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mountain_icon" />
+
+        <TextView
+            android:id="@+id/text_view_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:padding="12dp"
+            android:textColor="#232121"
+            android:textSize="18sp"
+            tools:text="A long text, just to see how everything fits in this TextView. Here it's gonna be some info about the user, registration form etc.." />
+
+        <TextView
+            android:id="@+id/text_view_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:padding="12dp"
+            android:textColor="#232121"
+            android:textSize="18sp"
+            tools:text="Email: example@gmail.com" />
+
+        <TextView
+            android:id="@+id/text_view_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:padding="12dp"
+            android:textColor="#232121"
+            android:textSize="18sp"
+            tools:text="Phone: 0011 222333444" />
+
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:text="@string/text_done"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</ScrollView>
